@@ -12,7 +12,7 @@ interface HasBatteries{}
 interface Waterproof{}
 interface Shoots{}
 class Toy{
-    Toy(){}
+    //Toy(){}
     Toy(int i){}
 }
 class FancyToy extends Toy implements HasBatteries,Waterproof,Shoots{
